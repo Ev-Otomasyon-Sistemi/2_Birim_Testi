@@ -1,6 +1,4 @@
-Birim Testi:
- Burada uygulamamızın testi gerçekleşmiştir fakat şu aşamada arduino kısmı olmadan yapılmıştır.
- Uygulamamıza girdiğimizde ayrı bir button ile birim tesi uygulamasına geçilmektedir.(şifre-kullanıcı adı girişi ile)
- Burada ısı sensörü için eğer akıllı ev otomasyonunu kullan kişinin bağlantı kesildiği taktirde evin ısını görmek istediği zaman karşısına çıkacak ekran görünmektedir. Ayrıca Bağlantı kesme ve bağlama işlemi görünmektedir.  
- Buradanda anlaşılacağı üzere şu aşamada hepsi gerçeleşmemiştir fakat bağlantı kesildiğinde gerçekleşecek olan olaylar basit düzeyde gösterlimektedir.İlerleyen aşamalarda daha detaylı yapılacaktır.
- 
+Birim Testi: Yazılım programlamasında bir tasarım ve geliştirme yöntemidir.
+    Burada uygulamamızın şu anki aşamadaki testi gerçekleştirilmiştir. Uygulamaya giriş yapıldığında ayrı bir buton ile birim testi uygulamasına geçiş yapılıyor. (Şifre-kullanıcı adı girişi ile)
+     Testimizde ilk aşamasında arduino ile bağlantı kesme-bağlama işlemleri yapılmaktadır. Sonraki aşamada evin sıcaklığını görmek istenildiğinde bağlantı yok ise bağlantı hatası verecektir.
+    Buradan da anlaşılacağı üzere şu aşamada tüm test işlemleri gerçekleşmemiştir fakat bağlantı kesildiğinde gerçekleşecek olan olaylar gösterilmektedir. (Projemizin şu aşamada arduino ve veritabanı kısmı eksiktir) İlerleyen aşamalarda daha detaylı bir test yapılacaktır.
