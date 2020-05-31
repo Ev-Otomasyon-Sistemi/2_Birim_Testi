@@ -1,38 +1,20 @@
-/*
-  DSM2_tx implements the serial communication protocol used for operating
-  the RF modules that can be found in many DSM2-compatible transmitters.
 
-  Copyrigt (C) 2012  Erik Elmore <erik@ironsavior.net>
-
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.  
-*/
 
 #include <cstring>
 #include <iostream>
 #include <iomanip>
 
-#include "fake_serial.h"
+#include "ArduinoTest_serial.h"
 
-void FakeSerial::begin(unsigned long speed) {
+void ArduinoTestSerial::begin(unsigned long speed) {
   return;
 }
 
-void FakeSerial::end() {
+void ArduinoTestSerial::end() {
   return;
 }
 
-size_t FakeSerial::write( const unsigned char buf[], size_t size ) {
+size_t ArduinoTestSerial::write( const unsigned char buf[], size_t size ) {
   using namespace std;
   ios_base::fmtflags oldFlags = cout.flags();
   streamsize oldPrec = cout.precision();
@@ -53,4 +35,4 @@ size_t FakeSerial::write( const unsigned char buf[], size_t size ) {
   return size;
 }
 
-FakeSerial Serial;
+ArduinoTestSerial Serial;
