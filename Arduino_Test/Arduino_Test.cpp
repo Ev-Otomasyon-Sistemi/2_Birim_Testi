@@ -1,19 +1,13 @@
-
-
 #include <cstring>
 #include <iostream>
 #include <iomanip>
-
 #include "ArduinoTest_serial.h"
 
 void ArduinoTestSerial::begin(unsigned long speed) {
-  return;
-}
-
+  return;   }
 void ArduinoTestSerial::end() {
   return;
 }
-
 size_t ArduinoTestSerial::write( const unsigned char buf[], size_t size ) {
   using namespace std;
   ios_base::fmtflags oldFlags = cout.flags();
@@ -31,8 +25,6 @@ size_t ArduinoTestSerial::write( const unsigned char buf[], size_t size ) {
   cout.flags(oldFlags);
   cout.precision(oldPrec);
   cout.fill(oldFill);
-
   return size;
 }
-
 ArduinoTestSerial Serial;
