@@ -1,5 +1,3 @@
-
-
 #include <sys/timeb.h>
 #include "ArduinoTest2_arduino.h"
 
