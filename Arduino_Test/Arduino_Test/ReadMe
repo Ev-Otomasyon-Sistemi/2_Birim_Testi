@@ -1,16 +1,1 @@
-------------------------------------------------------------------------------------------------------------------------------------
-Birim testi, yazılım programlamasında bir tasarım ve geliştirme yöntemidir. Bu yöntemde yazılımcı yazılım kodunu oluşturan 
-birimlerin kullanıma hazır olduğuna iknâ olur. Birim, bir bilgisayar uygulamasında test edilebilecek en küçük bölüme denir.
--------------------------------------------------------------------------------------------------------------------------------------
-Ev Otomasyon Sistemi/Ardunio Test
-Akıllı ev sisteminin demoya uyarlanması.
 
-Başlangıç
-Bu testin amacı uyarlanan ev otomasyon sisteminin kullanılabilirlik testi. Projeye Github/Ev-Otomasyon-Sistemi üzerinden ulaşabilirsiniz.
-
-Ön Şartlar
-Testin çalıştırılabilmesi için bilgisayarınızda "Microsoft Visual Studio" programının güncel sürümü bulunmalı ve bilgisayarınıza harici
-ardunio bağlantınızı gerçekleştirmeniz gerekir.
-
-Testlerin yapılması
-Programı uygulama ile çalıştırarak kod adımlarını izleyebilir ve testi gerçekleştirebilirsiniz.
