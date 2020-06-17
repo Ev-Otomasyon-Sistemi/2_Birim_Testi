@@ -11,13 +11,11 @@ Uygulamaya giriş yapmak için:
 Kullanıcı adı = test
 Şifre = 123
 
------------------------------------------------------------> Arduino Birim Testi <------------------------------------------------------
-Sistemin test aşaması için Proteus programında gerekli devre çizimi yapıldı. Bağlantı kontrolleri gerçekleşti. Devrede girdi ve çıktı 
-kontrolü sağlandı. Gerekli devre birimlerinde doğru voltaj değerinin varlığı devrenin başarı ile sonuç verdiğini kanıtlar.
+-----------------------------------------------------------> Arduino Testi <------------------------------------------------------
 
-Sistem kodunda test edilmesi gereken kısımlar test adında yeni bir proje açılarak gerekli kodlar yazıldı ve ardından programı ayrı 
-parçalara ayırarak test için izole edildi. 
+Akıllı ev sisteminin demoya uyarlanması.
 
-Arduino kütüphanesi tarafından sağlanan bazı destek işlevleri ArduinoTest2_arduino.cpp dosyasında mevcuttur. Kodun donanımı seri aygıtına 
-ikili veriler yazdığında okunabilir çıktı üretmek için Arduino_Test.h yazıldı. C++ derleyicisinde derlene kodların çıktısı olan sonuç ve 
-süre değerleri istenilen ile orantılı olması durumu testin başarılı olduğunu kanıtlar.
+Birim Testi
+Arduinolu sistemlerin birim testi çalışılabilirliği ile etkileşim göstermektedir. Tüm sensörler birim olarak çalışacak şekilde uyarlanıp birbirine entegre edilmiştir. Sistemin çalışması sırasında sensörlerin kullanımı birer birim testi niteliğindedir. Arduino kontrolleri sağlandı ve testleri gerçekleştirildi.
+
+Projeye Github/Ev-Otomasyon-Sistemi üzerinden ulaşabilirsiniz.
