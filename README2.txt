@@ -1,4 +1,5 @@
--------------------------------------------------------> Mobil Uygulama Birim Testi <-----------------------------------------------------
+------------------------------------------------------> Mobil Uygulama Birim Testi <-----------------------------------------------------------------------------------------------
+
 Birim Testi: Yazılım programlamasında bir tasarım ve geliştirme yöntemidir.
 Burada uygulamanın testi gerçekleştirilmiştir.
 Uygulamaya giriş yapıldığında ayrı bir buton ile birim testi uygulamasına geçiş yapılıyor.(Şifre-kullanıcı adı girişi ile)
@@ -11,11 +12,9 @@ Uygulamaya giriş yapmak için:
 Kullanıcı adı = test
 Şifre = 123
 
------------------------------------------------------------> Arduino Testi <------------------------------------------------------
+-----------------------------------------------------------> Arduino Testi <-------------------------------------------------------------------------------------------------------
 
-Akıllı ev sisteminin demoya uyarlanması.
+Arduino sistemlerin entegrasyon testleri çalışabilirliği ile test edilmektedir. Ürün tasarlanırken her bir birim ayrı bir şekilde test edilmiştir. Her testten sonra sisteme yeni bir birim ekleyip test edilmiştir. 
+Ayrıca C# üzerinden Arduuino_Test adlı birim testinde ev otomasyon sisteminde bulunan sensörlerin çalıştığı gösterilmektedir.
+Test kodu indirilip C# ortamında çalıştırılır. Çalışan programda Arduinoya bağlı Com seçimi yapılır. Bu sayede çalışmakta olan sistemden veriler çekilir.  
 
-Birim Testi
-Arduinolu sistemlerin birim testi çalışılabilirliği ile etkileşim göstermektedir. Tüm sensörler birim olarak çalışacak şekilde uyarlanıp birbirine entegre edilmiştir. Sistemin çalışması sırasında sensörlerin kullanımı birer birim testi niteliğindedir. Arduino kontrolleri sağlandı ve testleri gerçekleştirildi.
-
-Projeye Github/Ev-Otomasyon-Sistemi üzerinden ulaşabilirsiniz.
